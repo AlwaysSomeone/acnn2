@@ -1,0 +1,118 @@
+E:\Users\20962\Anaconda3\python.exe G:/projects/acnn2/main.py
+04-10 20:04 trian data: 8000
+04-10 20:04 test data: 2717
+04-10 20:04 total words: 22483
+04-10 20:04 embeddings: 86.81%(pre_trained) unknown: 2966
+04-10 20:04
+	test_only:	False
+	data_path:	data/
+	embedding_file:	data/embedding/senna/embeddings.txt
+	embedding_vocab:	data/embedding/senna/words.lst
+	train_file:	data/train.txt
+	test_file:	data/test.txt
+	log_file:	None
+	save_path:	None
+	pad_word:	<PAD>
+	pos_embed_num:	123
+	pos_embed_size:	5
+	slide_window:	3
+	num_filters:	100
+	classnum:	19
+	batch_size:	100
+	num_epoches:	100
+	keep_prob:	1.0
+	learning_rate:	0.001
+	l2_reg_lambda:	1
+	margin:	1
+	grad_clipping:	10.0
+	embedding_size:	50
+
+04-10 20:04 data shape: (8000, 97)
+04-10 20:04 data shape: (2717, 97)
+2018-04-10 20:04:40.816122: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE instructions, but these are available on your machine and could speed up CPU computations.
+2018-04-10 20:04:40.817582: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-04-10 20:04:40.818738: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE3 instructions, but these are available on your machine and could speed up CPU computations.
+2018-04-10 20:04:40.819854: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2018-04-10 20:04:40.821208: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-04-10 20:04:40.822263: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+INFO:tensorflow:Starting standard services.
+04-10 20:04 Starting standard services.
+WARNING:tensorflow:Standard services need a 'logdir' passed to the SessionManager
+04-10 20:04 Standard services need a 'logdir' passed to the SessionManager
+INFO:tensorflow:Starting queue runners.
+04-10 20:04 Starting queue runners.
+04-10 20:05 Epoch: 1 Train: 27.79% Test: 40.11%
+04-10 20:05 Epoch: 2 Train: 44.77% Test: 47.00%
+04-10 20:06 Epoch: 3 Train: 49.50% Test: 47.44%
+04-10 20:06 Epoch: 4 Train: 52.69% Test: 50.19%
+04-10 20:07 Epoch: 5 Train: 55.30% Test: 51.15%
+04-10 20:07 Epoch: 6 Train: 57.93% Test: 51.89%
+04-10 20:08 Epoch: 7 Train: 60.24% Test: 53.74%
+04-10 20:09 Epoch: 8 Train: 63.01% Test: 54.00%
+04-10 20:09 Epoch: 9 Train: 65.49% Test: 54.78%
+04-10 20:10 Epoch: 10 Train: 67.60% Test: 55.33%
+04-10 20:10 Epoch: 11 Train: 69.70% Test: 54.93%
+04-10 20:11 Epoch: 12 Train: 72.26% Test: 54.81%
+04-10 20:11 Epoch: 13 Train: 73.96% Test: 55.48%
+04-10 20:12 Epoch: 14 Train: 75.34% Test: 55.56%
+04-10 20:12 Epoch: 15 Train: 76.68% Test: 56.04%
+04-10 20:13 Epoch: 16 Train: 78.15% Test: 56.07%
+04-10 20:14 Epoch: 17 Train: 79.12% Test: 54.78%
+04-10 20:14 Epoch: 18 Train: 80.31% Test: 55.19%
+04-10 20:15 Epoch: 19 Train: 81.46% Test: 54.56%
+04-10 20:15 Epoch: 20 Train: 82.46% Test: 54.89%
+04-10 20:16 Epoch: 21 Train: 83.08% Test: 55.11%
+04-10 20:17 Epoch: 22 Train: 84.04% Test: 54.81%
+04-10 20:17 Epoch: 23 Train: 84.65% Test: 54.56%
+04-10 20:18 Epoch: 24 Train: 85.35% Test: 54.22%
+04-10 20:18 Epoch: 25 Train: 85.92% Test: 54.41%
+04-10 20:19 Epoch: 26 Train: 86.66% Test: 54.30%
+04-10 20:19 Epoch: 27 Train: 87.15% Test: 55.04%
+04-10 20:20 Epoch: 28 Train: 87.78% Test: 54.96%
+04-10 20:20 Epoch: 29 Train: 88.71% Test: 55.59%
+04-10 20:21 Epoch: 30 Train: 89.72% Test: 55.59%
+04-10 20:22 Epoch: 31 Train: 90.19% Test: 55.59%
+04-10 20:22 Epoch: 32 Train: 91.20% Test: 55.00%
+04-10 20:23 Epoch: 33 Train: 91.57% Test: 54.96%
+04-10 20:23 Epoch: 34 Train: 91.88% Test: 55.70%
+04-10 20:24 Epoch: 35 Train: 92.36% Test: 55.07%
+04-10 20:25 Epoch: 36 Train: 92.10% Test: 54.89%
+04-10 20:25 Epoch: 37 Train: 92.51% Test: 54.96%
+04-10 20:26 Epoch: 38 Train: 93.00% Test: 54.70%
+04-10 20:26 Epoch: 39 Train: 93.05% Test: 54.74%
+04-10 20:27 Epoch: 40 Train: 93.11% Test: 54.85%
+04-10 20:28 Epoch: 41 Train: 93.65% Test: 54.30%
+04-10 20:28 Epoch: 42 Train: 93.55% Test: 54.56%
+04-10 20:29 Epoch: 43 Train: 93.50% Test: 54.67%
+04-10 20:29 Epoch: 44 Train: 93.83% Test: 54.22%
+04-10 20:30 Epoch: 45 Train: 94.03% Test: 54.89%
+04-10 20:30 Epoch: 46 Train: 94.15% Test: 54.56%
+04-10 20:31 Epoch: 47 Train: 94.27% Test: 54.85%
+04-10 20:32 Epoch: 48 Train: 94.40% Test: 54.78%
+04-10 20:32 Epoch: 49 Train: 94.45% Test: 54.74%
+04-10 20:33 Epoch: 50 Train: 94.42% Test: 54.56%
+04-10 20:34 Epoch: 51 Train: 94.59% Test: 54.85%
+04-10 20:34 Epoch: 52 Train: 94.45% Test: 55.52%
+04-10 20:35 Epoch: 53 Train: 94.24% Test: 55.04%
+04-10 20:35 Epoch: 54 Train: 94.54% Test: 55.00%
+04-10 20:36 Epoch: 55 Train: 94.61% Test: 54.78%
+04-10 20:36 Epoch: 56 Train: 94.66% Test: 54.81%
+04-10 20:37 Epoch: 57 Train: 94.38% Test: 54.96%
+04-10 20:38 Epoch: 58 Train: 94.47% Test: 54.85%
+04-10 20:38 Epoch: 59 Train: 94.89% Test: 54.70%
+04-10 20:39 Epoch: 60 Train: 94.86% Test: 54.56%
+04-10 20:39 Epoch: 61 Train: 94.66% Test: 54.81%
+04-10 20:40 Epoch: 62 Train: 94.89% Test: 54.11%
+04-10 20:40 Epoch: 63 Train: 94.55% Test: 54.59%
+04-10 20:41 Epoch: 64 Train: 94.73% Test: 55.00%
+04-10 20:42 Epoch: 65 Train: 94.97% Test: 55.26%
+04-10 20:42 Epoch: 66 Train: 95.16% Test: 55.30%
+04-10 20:43 Epoch: 67 Train: 95.29% Test: 55.15%
+04-10 20:43 Epoch: 68 Train: 95.23% Test: 54.74%
+04-10 20:44 Epoch: 69 Train: 95.29% Test: 55.56%
+04-10 20:45 Epoch: 70 Train: 95.50% Test: 54.59%
+04-10 20:45 Epoch: 71 Train: 95.44% Test: 55.15%
+04-10 20:46 Epoch: 72 Train: 95.43% Test: 54.81%
+04-10 20:46 Epoch: 73 Train: 95.49% Test: 55.48%
+
+Process finished with exit code 1
